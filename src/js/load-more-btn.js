@@ -2,7 +2,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { messageParams } from './img-search';
 import refs from './refs';
 import { photoGallery } from './img-search';
-import renderGallery from './render-gallery';
+import { renderGallery } from './render-gallery';
 
 const onLoadMoreClick = async () => {
   photoGallery.totalHits -= photoGallery.per_page;
