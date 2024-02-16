@@ -1,5 +1,5 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import renderGallery from './render-gallery';
+import { renderGallery } from './render-gallery';
 import Photo from './IMG_API';
 import refs from './refs';
 
