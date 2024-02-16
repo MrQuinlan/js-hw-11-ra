@@ -1,0 +1,13 @@
+.card {
+  margin: 0;
+
+  &--img-wrapper {
+    overflow: hidden;
+
+    height: 240px;
+  }
+
+  &--info {
+    display: flex;
+  }
+}

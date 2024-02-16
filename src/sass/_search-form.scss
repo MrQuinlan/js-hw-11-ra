@@ -1,0 +1,15 @@
+.search-form {
+  position: fixed;
+  top: 35px;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: rgba(249, 249, 1, 0.56);
+
+  box-shadow: rgba(249, 249, 1, 0.56) 0px 22px 70px 4px;
+
+  & input {
+    background-color: rgba(252, 252, 184, 0.717);
+  }
+}
